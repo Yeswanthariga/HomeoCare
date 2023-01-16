@@ -1,0 +1,393 @@
+body{
+    padding: 30px;
+}
+
+.home{
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 6px;
+}
+
+.booking-info{
+    display: flex;
+}
+
+.welcome{
+    display: flex;
+    margin-top: 50px;
+}
+
+.img-symbol{
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+}
+
+.welcome-to{
+    color: rgb(44, 148, 148);
+}
+
+.welcome-para{
+    width: 580px;
+}
+
+.welcome-para2{
+    margin-left: 50px;
+    max-width: 750px;
+}
+
+.booking{
+    width: 350px;
+    height: 420px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+    position: absolute;
+    
+}
+
+.book-back{
+    position: relative;
+    z-index: -1;
+    width: 350px;
+    height: 400px;
+    border: yellow 2px solid;
+    top: 10px;
+    left: 20px;
+}
+
+.appointment{
+    margin-top: 20px;
+    color: white;
+}
+
+.input{
+   margin-left: 38px;
+   width: 270px;
+   height: 40px;
+   background-color: rgb(32, 182, 182);
+   border: white 1px solid;
+   color: white;
+   padding: 20px;
+   font-weight:bolder;
+   
+}
+
+.message{
+    margin-left: 38px;
+   width: 270px;
+   height: 100px;
+   background-color: rgb(32, 182, 182);
+   border: white 1px solid;
+   color: white;
+   padding: 20px;
+   font-weight:bolder;
+}
+
+.send-message{
+    margin-top: 20px;
+    height: 70px;
+    background-color: yellow;
+    font-weight: 900;
+}
+
+.treatments{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.treatment-name{
+    color: aqua;
+}
+
+.treatment-method{
+    width: 330px;
+    height: 300px;
+}
+
+.ch-msg{
+    margin-top: 60px;
+    display: flex;
+}
+
+.chairman{
+    margin-left: 50px;
+    padding: 25px;
+    max-width: 870px;
+    border: aqua 3px solid;
+}
+
+.line{
+    max-width: 50%;
+    color: rgb(10, 248, 248);
+    border-width: 3px;
+    margin-left: auto;
+}
+
+.ch-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ch-img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+
+.reasons{
+    display: flex;
+    padding-top: 20px;
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+.why-gray{
+    
+    width: 270px;
+    height: 270px;
+    background-color: rgb(206, 204, 204);
+    border-radius: 5px;
+}
+.why-aqua{
+    width: 270px;
+    height: 270px;
+    background-color: rgb(159, 245, 245);
+    border-radius: 5px;
+}
+
+.why-img{
+    padding: 9px;
+}
+
+.why-container{
+    padding: 30px;
+}
+
+.send{
+    display: flex;
+    max-width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #054083;
+    justify-content: space-between;
+}
+
+.yourName{
+    width: 400px;
+    height: 30px;
+    margin: 15px;
+    background-color: #051b33;
+    color: white;
+    padding-left: 10px;
+    border: aqua 1px solid;
+}
+
+.btn-send{
+    width: 400px;
+    height: 30px;
+    margin: 15px;
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+.testimonial{
+    background-color: rgb(223, 221, 221);
+    /* height: 400px; */
+    margin: auto;
+    
+}
+.testimonial-head{
+    padding: 30px;
+}
+
+.person-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.person{
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.person-info{
+    display: flex;
+    gap: 10px;
+}
+
+.celebrities{
+    display: flex;
+    gap: 10px;
+}
+
+.celebrity{
+    width: auto;
+    margin-top: 20px;
+}
+
+.celebrity h5{
+    text-align: center;
+    
+}
+
+.disclamier{
+    margin: auto;
+    margin-top: 30px;
+    max-width: 50%;
+    /* height: 50px; */
+    border: aqua 2px solid;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.footer{
+    background-color: rgb(36, 36, 255);
+    margin: 70px;
+    max-width: 100%;
+    /* height: 300px; */
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+}
+
+.hr-rule{
+    color: aqua;
+    border: dotted;
+}
+
+.footer-address{
+    width: 250px;
+}
+
+.footer-header{
+    color: rgb(9, 164, 253);
+    font-weight: 600;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-aqua{
+    color: aqua;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #0c4da2;
+    display: table;
+    text-align: center;
+    align-items: center;
+}
+
+.social1 a{
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.head3{
+    margin-left: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.branch li::before{
+    content: "\2022";
+    color: #1b5394;
+    font-weight: 800;
+    font-size: 25px;
+    display: inline-block;
+    width: 0.7em;
+}
+
+.branch li{
+    color: wheat;
+    /* display: inline-block; */
+}
+
+.footer-rights{
+    background-color: aqua;
+    position: relative;
+    top: 200px;
+    z-index: -1;
+    height: 250px;
+}
+
+.footer-rights p{
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .booking-info{
+        flex-direction: column;
+        margin: auto;
+    }
+    .booking{
+        margin: auto;
+
+    }
+    .treatments{
+        overflow-x: scroll;
+    }
+
+    .ch-msg{
+        flex-direction: column;
+    }
+
+    .reasons{
+        overflow-x: scroll;
+    }
+
+    .person-container{
+       
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .celebrities{
+        overflow-x: scroll;
+    }
+
+    .footer{
+        flex-direction: column;
+        margin-left: 20%;
+        text-align: center;
+    }
+
+    .footer-rights{
+        top: 800px;
+        height: 400px;
+        padding-top: 150px;
+    }
+}
